@@ -71,7 +71,7 @@ function Login(props) {
                 boxSizing: 'border-box'
             }}>
                 <div style={{ textAlign: 'center', marginBottom: '30px' }}>
-                    <h2 style={{ margin: '0 0 10px 0', fontWeight: '700', color: '#38bdf8', textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>Selamat Datang</h2>
+                    <h2 style={{ margin: '0 0 10px 0', fontWeight: '700', color: '#38bdf8', textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>Welcome</h2>
                     <p style={{ margin: 0, color: '#cbd5e1', fontSize: '14px', fontWeight: '500' }}>Silakan masuk ke akun Perpustakaan kamu</p>
                 </div>
 
