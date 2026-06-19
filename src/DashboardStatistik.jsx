@@ -68,7 +68,7 @@ const DashboardStatistik = () => {
             }}>
                 <div style={{ textAlign: 'center' }}>
                     <h3 style={{ fontWeight: '600', animation: 'pulse 1.5s infinite alternate', color: '#38bdf8' }}>
-                        ⏳ Memuat Data Analisis Statistik Perpustakaan...
+                      Memuat Data Analisis Statistik Perpustakaan...
                     </h3>
                     <p style={{ color: '#64748b', fontSize: '13px' }}>Menghubungkan ke core engine server Laravel...</p>
                 </div>
@@ -87,7 +87,7 @@ const DashboardStatistik = () => {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px', borderBottom: '1px solid rgba(255, 255, 255, 0.1)', paddingBottom: '15px', flexWrap: 'wrap', gap: '15px' }}>
                 <div>
                     <h2 style={{ margin: 0, fontWeight: '700', fontSize: '24px', letterSpacing: '0.5px' }}>
-                        📈 Panel Analisis & Statistik Perpustakaan
+                        Panel Analisis & Statistik Perpustakaan
                     </h2>
                     <p style={{ margin: '4px 0 0 0', color: '#94a3b8', fontSize: '13px' }}>Metrik performa, laporan sirkulasi data, dan pencapaian rekor aktual</p>
                 </div>
@@ -125,7 +125,7 @@ const DashboardStatistik = () => {
             {/* ================= BARIS 1: KOTAK INFORMASI RINGKASAN DATA (METRIKS GLASSMORPHISM) ================= */}
             <div style={{ marginBottom: '15px' }}>
                 <h3 style={{ margin: '0 0 15px 0', fontSize: '16px', fontWeight: '600', color: '#cbd5e1', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    📋 Ringkasan Umum Sirkulasi
+                    Ringkasan Umum Sirkulasi
                 </h3>
             </div>
             
@@ -189,7 +189,7 @@ const DashboardStatistik = () => {
             {/* ================= BARIS 2: REKOR & PRESTASI BULAN INI (CARDS SPLIT) ================= */}
             <div style={{ marginBottom: '15px' }}>
                 <h3 style={{ margin: '0 0 15px 0', fontSize: '16px', fontWeight: '600', color: '#cbd5e1', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    🏆 Rekor Transaksi Bulan Ini
+                    Rekor Transaksi Bulan Ini
                 </h3>
             </div>
 
@@ -207,7 +207,7 @@ const DashboardStatistik = () => {
                     boxShadow: '0 10px 30px rgba(0,0,0,0.15)'
                 }}>
                     <h4 style={{ margin: '0 0 20px 0', color: '#f59e0b', fontSize: '15px', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '8px', borderBottom: '1px solid rgba(255,255,255,0.08)', paddingBottom: '10px' }}>
-                        🥇 Siswa Teraktif Bulan Ini
+                        Anggota Teraktif Bulan Ini
                     </h4>
                     {topPeminjam ? (
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -241,7 +241,7 @@ const DashboardStatistik = () => {
                     boxShadow: '0 10px 30px rgba(0,0,0,0.15)'
                 }}>
                     <h4 style={{ margin: '0 0 20px 0', color: '#38bdf8', fontSize: '15px', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '8px', borderBottom: '1px solid rgba(255,255,255,0.08)', paddingBottom: '10px' }}>
-                        🔥 Buku Terlaris (Best Seller)
+                        Buku Terlaris (Best Seller)
                     </h4>
                     {topBuku ? (
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
